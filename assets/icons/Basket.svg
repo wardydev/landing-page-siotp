@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FF6C58;}
+	.st1{fill:#D7385E;}
+	.st2{fill:#314A52;}
+</style>
+<g id="Basket">
+	<path class="st0" d="M40,36h4v12h-4V36z M30,36h4v12h-4V36z M24,36h-4v12h4V36z M6,26h52l-5,31H11L6,26z"/>
+	<path class="st1" d="M45,24H0v4h3.7l3.6,25.1c0.6,3.9,3.9,6.9,7.9,6.9H44v-3h9l3-17h-1.4c-1,6.1-10.6,11.1-23,11.9
+		C30.6,52,29.4,52,28,52c-9.5,0-17.2-1.8-17.4-4h0L7.7,28H45V24z"/>
+	<path class="st2" d="M32,6.1L19.5,28L16,25.9L28.5,4L32,6.1z M46.9,24L35.5,4L32,6.1L44.6,28h11.7l-3.5,24.6c-0.3,2-2,3.4-4,3.4H44
+		v4h4.8c4,0,7.4-2.9,7.9-6.9L60.3,28H64v-4H46.9z"/>
+</g>
+</svg>

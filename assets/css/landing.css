@@ -1,0 +1,422 @@
+/* FILE CSS BARU */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+/* END FILE CSS BARU */
+
+/* PAS WAH */
+html {
+    scroll-behavior: smooth;
+  }
+.header {
+    padding: 3rem 2rem;
+}
+.header.active {
+    width: 100%;
+    background-color: white;
+    box-shadow: -1px 8px 17px -2px rgba(0,0,0,0.21);
+    -webkit-box-shadow: -1px 8px 17px -2px rgba(0,0,0,0.21);
+    -moz-box-shadow: -1px 8px 17px -2px rgba(0,0,0,0.21);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo {
+    width: 100px;
+}
+.colored-black {
+    display: none;
+}
+.colored-white {
+    display: block;
+}
+.header-menus a {
+    display: none;
+}
+.responsive-menu {
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    padding: 4rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 69px;
+    left: 0;
+    z-index: 9;
+    transition: 0.5s all;
+}
+.responsive-menu.active {
+    height: auto;
+    opacity: 1;
+}
+.responsive-menu a {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: rgb(30, 30, 39);
+}
+.responsive-menu a.active {
+    color: #3CA5BB;
+}
+.hamburger-menu {
+    display: block;
+}
+.hamburger-menu_black {
+    display: none;
+}
+/* PAS WAH */
+/* CSS PALING BARU */
+.hero {
+    width: 100%;
+    background: linear-gradient(337deg, #3CB9DC 30.16%, #02308E 102.86%);
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 5em 0;
+    min-height: 100vh;
+}
+.container-hero {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2em;
+    position: relative;
+}
+.container-hero_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    order: 2;
+}
+.container-hero_title h1 {
+    color: white;
+    font-weight: 300 !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.15em;
+}
+.container-hero_title h1 span {
+    color: #4ED5FB;
+    font-weight: 700 !important;
+    font-family: 'Inter', sans-serif;
+}
+.container-hero img {
+    order: 1;
+    width: 17em;
+}
+.hero::before {
+    content: url("../images/wave-footer-socmed-phone.png");
+    position: absolute;
+    width: 100%;
+    bottom: -35%;
+    left: -260px;
+    transform: rotate(8deg);
+    z-index: 0;
+}
+.container-hero_btn {
+    padding: 1rem 6rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #71E0FF;
+    font-weight: 700;
+    color: #0f2d6a;
+    margin-top: 3rem;
+    transition: 0.1s;
+    box-shadow: 0px 27px 20.9px 0px rgba(0, 0, 0, 0.09);
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.container-hero_btn span {
+    margin: 12px;
+}
+.container-hero_btn:hover {
+    background-color: rgb(109, 169, 247);
+}
+/* CSS PALING BARU */
+.services {
+    padding-top: 36rem;
+    background-color: #f8f9fa;
+    padding-bottom: 12rem;
+}
+.services-item-title { 
+    margin-top: 3rem;
+}
+.about {
+    padding: 10rem 0;
+    background:  linear-gradient(90deg, rgba(7, 107, 150, 0.6) 0%, rgba(2,51,185,1) 35%, rgba(73,184,212,0.6) 100%);
+    color: white;
+}
+.about h2 {
+    color: white;
+}
+.about-container-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.accordion {
+    margin-top: 6rem;
+    padding: 10rem 0;
+    margin-bottom: 12rem;
+}
+.accordion-container-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.footer {
+    background-color: rgb(25, 24, 32);
+    padding: 4rem 12rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+.footer-logo {
+    width: 300px;
+    margin-right: 10rem;
+}
+.footer-logo p {
+    margin-top: 2rem;
+}
+.footer-item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+}
+.footer-content {
+    margin: 0 auto;
+    background-color: red;
+}
+.f-image-payment {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.f-image-payment img {
+    width: 100px;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+/* CSS PALING BARU */
+@media screen and (min-width: 600px) {
+    /* PAS WAH */
+    .hamburger-menu {
+        width: 36px;
+        display: none !important;
+    }
+    .hamburger-menu_black {
+        display: none !important;
+    }
+    .header {
+        padding: 3rem 16rem;
+        background-color: transparent;
+        position: relative;
+    }
+    .header.active {
+        width: 100%;
+        background-color: white;
+        box-shadow: -1px 8px 17px -2px rgba(0,0,0,0.21);
+    -webkit-box-shadow: -1px 8px 17px -2px rgba(0,0,0,0.21);
+    -moz-box-shadow: -1px 8px 17px -2px rgba(0,0,0,0.21);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-menus {
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-menus a {
+        color: #f8f9fa;
+        font-weight: 500;
+        transition: 0.3s;
+        display: block;
+    }
+    .header-menus a:hover {
+        color: #3CA5BB;
+    }
+    .header-menus a.scroll {
+        color: rgb(30, 30, 39);
+    }
+    .header-menus a.active {
+        color: #3CA5BB;
+    }
+    .header-logo {
+        width: 120px;
+    }
+    .logo-width {
+        width: 120px;  
+    }
+    .responsive-menu {
+        display: none;
+    }
+    /* PAS WAH */
+    .hero {
+        width: 100%;
+        background: linear-gradient(337deg, #3CB9DC 30.16%, #02308E 102.86%);
+        position: relative;
+        overflow: hidden;
+        padding: 0 0 5em 0;
+        min-height: 100vh;
+    }
+    .container-hero {
+        padding: 0 12em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: -2em;
+        position: relative;
+    }
+    .container-hero_title {
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        flex-direction: column;
+        text-align: left;
+        order: 1;
+        margin-top: 2em;
+    }
+    .container-hero_title h1 {
+        color: white;
+        font-weight: 300 !important;
+        font-family: 'Inter', sans-serif;
+        font-size: 3em;
+    }
+    .container-hero_title h1 span {
+        color: #4ED5FB;
+        font-weight: 700 !important;
+        font-family: 'Inter', sans-serif;
+    }
+    .container-hero img {
+        order: 2;
+        width: 25em;
+    }
+    .hero::before {
+        content: url("../images/wave-footer-socmed-laptop.png");
+        position: absolute;
+        width: 100%;
+        bottom: -42%;
+        left: -18%;
+        transform: scale(0.75) rotate(-4deg);
+        z-index: 99;
+    }
+    .container-hero_btn {
+        padding: 1rem 6rem;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        background-color: #71E0FF;
+        font-weight: 700;
+        color: #0f2d6a;
+        margin-top: 2rem;
+        transition: 0.1s;
+        box-shadow: 0px 27px 20.9px 0px rgba(0, 0, 0, 0.09);
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 0;
+    }
+    .container-hero_btn span {
+        margin: 12px;
+    }
+    .container-hero_btn:hover {
+        background-color: rgb(109, 169, 247);
+    }
+  }
+
+  @media screen and (min-width: 1550px) {
+    
+    .hero {
+        width: 100%;
+        background: linear-gradient(337deg, #3CB9DC 30.16%, #02308E 102.86%);
+        position: relative;
+        overflow: hidden;
+        padding: 0 0 5em 0;
+        min-height: 100vh;
+    }
+    .container-hero {
+        padding: 0 12em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: -2em;
+        position: relative;
+    }
+    .container-hero_title {
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        flex-direction: column;
+        text-align: left;
+        order: 1;
+        margin-top: 5em;
+    }
+    .container-hero_title h1 {
+        color: white;
+        font-weight: 300 !important;
+        font-family: 'Inter', sans-serif;
+        font-size: 4.5em;
+    }
+    .container-hero_title h1 span {
+        color: #4ED5FB;
+        font-weight: 700 !important;
+        font-family: 'Inter', sans-serif;
+    }
+    .container-hero img {
+        order: 2;
+        width: 40em;
+    }
+    .hero::before {
+        content: url("../images/wave-footer-socmed-desktop.png");
+        position: absolute;
+        width: 100%;
+        bottom: -35%;
+        left: -280px;
+        transform: rotate(-8deg);
+        z-index: 99;
+    }
+    .container-hero_btn {
+        padding: 1rem 6rem;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        background-color: #71E0FF;
+        font-weight: 700;
+        color: #0f2d6a;
+        margin-top: 3rem;
+        transition: 0.1s;
+        box-shadow: 0px 27px 20.9px 0px rgba(0, 0, 0, 0.09);
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 99;
+    }
+    .container-hero_btn span {
+        margin: 12px;
+    }
+    .container-hero_btn:hover {
+        background-color: rgb(109, 169, 247);
+    }
+  }
+  /* END CSS PALING BARU */

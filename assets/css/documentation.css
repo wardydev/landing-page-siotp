@@ -1,0 +1,24 @@
+/* documentation */
+.doc-menus {
+    width: 100% !important;
+    /* background-color: red; */
+}
+.doc-tabs {
+    width: 350px !important;
+    /* background-color: green; */
+}
+.doc-item {
+    width: 100% !important;
+}
+.doc-content {
+    margin-top: 3rem;
+}
+.doc-code-custom {
+    font-family: sans-serif;
+}
+.pre-custom {
+    background-color: #def5f7;
+}
+.doc-card-box {
+    padding: 5rem 3rem !important;
+}

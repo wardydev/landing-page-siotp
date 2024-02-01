@@ -1,0 +1,32 @@
+.input-otp-container {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-otp {
+    width: 45px;
+    height: 45px;
+    /* border: 4px soild #3AC9D6 !important; */
+    border: 2px solid #3AC9D6;
+    color: #3AC9D6;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0 2px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.input-otp::-webkit-outer-spin-button,
+.input-otp::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input-otp[type=number] {
+  -moz-appearance: textfield;
+}
