@@ -73,7 +73,7 @@ html {
 /* PAS WAH */
 /* CSS PALING BARU */
 .hero {
-    width: 100%;
+    width: 100% !important;
     background: linear-gradient(337deg, #3CB9DC 30.16%, #02308E 102.86%);
     position: relative;
     overflow: hidden;
